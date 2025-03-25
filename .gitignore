@@ -1,0 +1,23 @@
+# Root .gitignore
+
+# Ignore node_modules everywhere
+**/node_modules
+
+# Build outputs
+**/dist
+**/build
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env files
+**/.env
+
+# Logs
+**/*.log
+npm-debug.log*
+
+# IDE files
+.vscode/
+.idea/
